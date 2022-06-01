@@ -1,0 +1,28 @@
+{
+  "name": "top-rest-api",
+  "version": "1.0.0",
+  "description": "TOP Curriculum",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smd92/top-rest-api.git"
+  },
+  "author": "smd92",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smd92/top-rest-api/issues"
+  },
+  "homepage": "https://github.com/smd92/top-rest-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16",
+    "uuid": "^8.3.2"
+  }
+}
